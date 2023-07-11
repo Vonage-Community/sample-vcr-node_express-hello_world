@@ -1,0 +1,16 @@
+project:
+  name: video-api-testing
+instance:
+  name: dev
+  runtime: nodejs16
+  region: aws.euw1
+  application-id: YOUR-VONAGE-API-APPLICATION-ID
+  entrypoint: [node, server.js]
+  environment:
+    - name: YOUR-VAR-1
+      value: something-secret
+    - name: YOUR-VAR-2
+      value: "string value"
+debug:
+  name: debug
+  entrypoint: [sh, debug.sh]
