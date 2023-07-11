@@ -1,5 +1,5 @@
 project:
-  name: video-api-testing
+  name: vcr-hello-world
 instance:
   name: dev
   runtime: nodejs16
@@ -7,9 +7,9 @@ instance:
   application-id: YOUR-VONAGE-API-APPLICATION-ID
   entrypoint: [node, server.js]
   environment:
-    - name: YOUR-VAR-1
-      value: something-secret
-    - name: YOUR-VAR-2
+    - name: YOURVAR1
+      value: "something-secret"
+    - name: YOURVAR2
       value: "string value"
 debug:
   name: debug
