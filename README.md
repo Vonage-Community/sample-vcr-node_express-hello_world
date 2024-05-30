@@ -8,3 +8,4 @@ Choose the "Use As Template" option in GitHub and create a new repository under 
 
 You will then be able to link this new repository into your new Cloud Runtime Workspace.
 
+!{Vonage Cloud Runtime}(https://developer.vonage.com/en/cloud-runtime)
